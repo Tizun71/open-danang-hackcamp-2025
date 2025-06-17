@@ -12,6 +12,17 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/balance/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/balance/page.css",
+      "static/chunks/app/balance/page.js"
+    ],
+    "/balance/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/balance/loading.js"
+    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

@@ -19,7 +19,7 @@ import { Provider as JotaiProvider } from "jotai";
 // import according to docs
 
 export const paseoAssetHub = defineChain({
-  id: 420420421,
+  id: 420420422,
   name: "Paseo AssetHub",
   nativeCurrency: {
     decimals: 18,

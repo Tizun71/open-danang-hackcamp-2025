@@ -4,9 +4,7 @@ const hre = require("hardhat");
 const { JsonRpcProvider } = require("ethers");
 
 async function deploy() {
-  const provider = new JsonRpcProvider(
-    "https://testnet-passet-hub-eth-rpc.polkadot.io/"
-  );
+  const provider = new JsonRpcProvider("http://127.0.0.1:8545");
   const privateKey = process.env.AH_PRIV_KEY;
   const wallet = new ethers.Wallet(privateKey, provider);
 
